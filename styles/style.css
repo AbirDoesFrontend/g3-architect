@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
 }
 
 :root {
@@ -13,3 +20,93 @@
     --footer-bg : rgba(255, 244, 231, 1);
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    background-color: var(--theme_color);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    margin-top: 3.2rem;
+} 
+
+.container {
+    width: 1500px;
+    margin: auto;
+}
+
+/* Header Nav */
+
+header {
+    background-color: var(--hero_bg-color);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 5rem 22.8rem 0 24rem;
+}
+
+.header__logo a{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.header__menu ul {
+    display: flex;
+}
+
+.header__menu ul li {
+    margin-right: 5rem;
+}
+
+.header__menu ul li a {
+    color: var(--dark_02);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 10.2rem;
+}
+
+.hero__main h1 {
+    color: var(--dark_01);
+    font-size: 64px;
+    font-weight: 700;
+}
+.hero__main p {
+    color: var(--dark_03);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 2rem;
+}
+
+.hero__img {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.hero__img img {
+    width: 100%;
+}
