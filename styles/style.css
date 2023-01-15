@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --hero_bg-color : rgba(255, 144, 14, 0.1);
+    --theme_color : rgba(255, 144, 14, 1);
+    --dark_01 : rgba(19, 19, 19, 1);
+    --dark_02 : rgba(66, 66, 66, 1);
+    --dark_03 : rgba(114, 114, 114, 1);
+    --footer-bg : rgba(255, 244, 231, 1);
+}
+
